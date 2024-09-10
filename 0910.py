@@ -22,7 +22,7 @@ def power2n_d(n):
     # pass
     if n<0:raise
     if not pow[n] is None:return pow[n]
-    if pow[n]= power2n_d(n-1)+power2n_d(n-1)
+    pow[n]=power2n_d(n-1)+power2n_d(n-1)
     return pow[n]
     #if n==0: return 1
     #return power2n_d(n-1)+power2n_d(n-1) 
